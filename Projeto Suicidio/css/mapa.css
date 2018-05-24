@@ -1,0 +1,40 @@
+#container {
+    height: 500px; 
+    min-width: 310px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+.loading {
+    margin-top: 10em;
+    text-align: center;
+    color: gray;
+}
+g{
+	fill: #56AAFF;
+}
+tspan{
+	
+
+}
+
+
+#filtro{
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+	font-size: 1.4rem;
+  	color: #959595;
+}
+
+#filtro label{
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+#filtro input{
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.filtro{
+	margin-left: px;
+}
