@@ -21,6 +21,9 @@
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
+    <!-- Highcharts -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+
   </head>
 
   <body id="page-top">
@@ -72,10 +75,8 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-            <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
-              <a href="https://unsplash.com/">Unsplash</a>!</p>
-            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
+            <h2>Análise dos casos de suicídio por sexo, raça/cor e estado civil</h2>
+            <div id="racacor_estciv_sexo"></div>
           </div>
         </div>
       </div>
@@ -254,6 +255,7 @@
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.js"></script>
 
+    <script src="js/custom.js"></script>
     <script type="text/javascript">
       // Contador de suicídio
       var suicideCount = $('#suicide-count');
