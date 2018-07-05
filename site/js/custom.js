@@ -1,5 +1,6 @@
-var jsonFile = '/home/roleta/anaconda-projects/imd0107_suicidio/site/data/racacor_estciv_sexo.json';
-console.log(jsonFile);
+var loc = window.location.pathname;
+var dir = loc.substring(0, loc.lastIndexOf('/'));
+var jsonFile = dir + "/data/racacor_estciv_sexo.json";
 
 $(function () {
   $.getJSON(jsonFile, function (dataJson) {
